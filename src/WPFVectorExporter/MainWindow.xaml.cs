@@ -33,7 +33,7 @@ namespace WPFVectorExporter
             foreach (var size in IconSize.TypicalSizes)
             {
                 vectorHolder.DataContext = size;
-                var fileName = System.IO.Path.Combine(folder, string.Format("vector-{0}.png", size.Size));
+                var fileName = System.IO.Path.Combine(folder, string.Format("favicon-{0}.png", size.Size));
                 WriteOutImage(size.Size, vectorHolder, fileName);
             }
             vectorHolder.DataContext = sampleSize;

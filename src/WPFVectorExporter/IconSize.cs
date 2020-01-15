@@ -10,13 +10,17 @@ namespace WPFVectorExporter
         public static readonly IEnumerable<IconSize> TypicalSizes = new[]
         {
             new IconSize{ Size =16, Padding=0},            
-            new IconSize{ Size =24, Padding=1},            
+            //new IconSize{ Size =24, Padding=1},            
             new IconSize{ Size =32, Padding=2},    
-            new IconSize{ Size =48, Padding=3},    
-            new IconSize{ Size =64, Padding=4},    
-            new IconSize{ Size =128, Padding=8},    
-            new IconSize{ Size =256, Padding=16},    
-            new IconSize{ Size =512, Padding=32},
+            //new IconSize{ Size =48, Padding=3},    
+            //new IconSize{ Size =64, Padding=4},    
+            new IconSize{ Size =128, Padding=8},
+            new IconSize{ Size =152, Padding=10},
+            new IconSize{ Size =167, Padding=10},
+            new IconSize{ Size =180, Padding=16},
+            new IconSize{ Size =192, Padding=16},
+            //new IconSize{ Size =256, Padding=16}, 
+            //new IconSize{ Size =512, Padding=32},
         };
 
         public int Size { get; private set; }
